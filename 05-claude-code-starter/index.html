@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Workshop readiness checker</title>
+    <style>
+      body { font-family: system-ui, sans-serif; margin: 3rem auto; max-width: 42rem; padding: 0 1rem; color: #171717; }
+      fieldset { border: 1px solid #ccc; padding: 1.5rem; }
+      label { display: block; margin: 1rem 0; }
+      button { background: #123b45; color: white; border: 0; padding: .8rem 1.1rem; font-weight: 700; }
+      #result { margin-top: 1.5rem; font-size: 1.25rem; font-weight: 700; }
+    </style>
+  </head>
+  <body>
+    <h1>Workshop readiness checker</h1>
+    <form>
+      <fieldset>
+        <legend>Select what is ready</legend>
+        <label><input type="checkbox" name="laptop"> I have a laptop</label>
+        <label><input type="checkbox" name="shared"> A shared lab computer is assigned</label>
+        <label><input type="checkbox" name="setup"> Setup is complete</label>
+        <button type="submit">Check readiness</button>
+      </fieldset>
+    </form>
+    <p id="result"></p>
+    <script type="module" src="src/app.js"></script>
+  </body>
+</html>
+
