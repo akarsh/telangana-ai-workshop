@@ -1,0 +1,10 @@
+.DS_Store
+node_modules/
+analysis.md
+brief.md
+reflection.md
+build/renders/
+build/contact.png
+build/node_modules
+*.pptx
+*.pptx.inspect.ndjson
